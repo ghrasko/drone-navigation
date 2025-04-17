@@ -1,0 +1,18 @@
+# py -3.12 -m venv env
+# env\Scripts\activate
+# py -m pip install --upgrade pip
+# py -m pip download -r requirements.txt -d ./downloads
+# py -m pip download torch torchvision --index-url https://download.pytorch.org/whl/cu118 -d ./downloads
+# py -m pip install --no-index --find-links ./downloads -r requirements.txt 
+# py -m pip install --no-index --find-links=./downloads torch torchvision
+
+numpy
+matplotlib
+Pillow
+osmnx
+geopandas
+shapely
+rasterio
+tqdm
+h5py
+scikit-learn
